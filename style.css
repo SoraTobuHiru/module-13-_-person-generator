@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+.game-card {
+    height: 90vh;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    background-color: #b8833b;
+}
+
+.card-header:first-child {
+    border-radius: 0 calc(.25rem - 1px) 0 0;
+}
+
+.m-0 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.folder-tab {
+    width: 220px;
+    height: 35px;
+    margin-right: 50%;
+    border-radius: 5px 15px 0 0;
+    background-color: #b8833b;
+}
+
+.card-body {
+    background-color: #efe6d0;
+}
